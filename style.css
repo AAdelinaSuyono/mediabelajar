@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://png.pngtree.com/background/20210716/original/pngtree-cartoon-animal-lion-tiger-zebra-animation-background-picture-image_1348751.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 100px;
+}
+
+.container {
+    text-align: center;
+    margin: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    top: 50%;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 50px;
+    min-width: 200px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: yellow;
+    color: white;
+    transition: 0.7s;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
+
+.kotak-herbivora {
+    width: 1000px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+.kotak-karnivora {
+    width: 1000px;
+    height: 100px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.kotak-omnivora {
+    width: 1000px;
+    height: 100px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+td {
+    background-color: green;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.kuis {
+    margin: 200px;
+    background-color: green;
+    width: 100%;
+    align-items: left;
+}  
+
+ul {
+    list-style-type: none;
+}
